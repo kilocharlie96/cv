@@ -1,0 +1,38 @@
+.content{
+    display: grid;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.about-me{
+    min-width: 20vw;
+    border-radius: 2rem;
+}
+
+.content h3{
+    font-size: clamp(1.25rem, 2vw, 3rem);
+}
+
+dt, dd{
+    padding: 1rem;
+}
+
+dt{
+    background: rgb(200, 198, 194);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom: 1px solid var(--border-line);
+    font-weight: bold;
+}
+
+dd{
+    background: aliceblue;
+    border-bottom: 1px solid var(--border-line);
+}
+
+dd:last-child{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+    border: none;
+}

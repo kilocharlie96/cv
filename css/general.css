@@ -1,3 +1,7 @@
+:root{
+    --border-line: rgb(155, 155, 155);
+}
+
 body{
     background-image: linear-gradient(
     to right,
