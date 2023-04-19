@@ -14,26 +14,29 @@
 <body>
     
     <header>
-        <section class="greetings">
+        <div class="greetings">
             <h1><em>Hi,</em></h1>
             <h2> I am <strong>Kristián Černák</strong></h2>
-        </section>
-
-
-        <div class="img">
-            <img class="profile-picture" src="./gallery/Screenshot_20211026-222709_Instagram.jpg" alt="Fotka autora">
         </div>
+
+        <figure class="profile-picture">
+            <img class="img-profile" src="./gallery/Screenshot_20211026-222709_Instagram.jpg" alt="Fotka autora">
+        </figure>
     </header>
 
     <main>
-        <section class="content container">
-            <h3>Work experience:</h3>
-                <dl class="about-me">
-                    <dt>LoveIT</dt>
-                    <dd>Solution developer</dd>
-                    <dd>uniqa</dd>
-                </dl>
+        <section class="about-me">
+            <h2>About me:</h2>
+            <div class="content">
+                <h3>Work experience:</h3>
+                    <dl class="work-experience">
+                        <dt>LoveIT</dt>
+                        <dd>Solution developer</dd>
+                        <dd>uniqa</dd>
+                    </dl>
+            </div>
         </section>
+        
     </main>
 
     <script src="./js/jquery-3.6.4.js"></script>

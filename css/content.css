@@ -1,16 +1,23 @@
-.content{
+main{
+    margin-top: 5vw;
+}
+
+/* .content{
     display: grid;
     justify-content: center;
     gap: 1vw;
 }
 
-.about-me{
+.work-experience{
     min-width: 20vw;
     border-radius: 2rem;
-}
+} */
+
+
 
 .content h3{
     font-size: clamp(1.25rem, 2vw, 3rem);
+    font-family: sans-serif;
 }
 
 dt, dd{
