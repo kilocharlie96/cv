@@ -3,12 +3,13 @@
     padding: 2rem 0rem;
 } */
 header{
-    padding-bottom: 5vw;
-    border-bottom: 0.15rem solid var(--border-line);
+    /* padding-bottom: 5vw; */
+    border-bottom: 0.75rem solid var(--border-line);
+    min-height: 100vh;
 }
 
 .greetings{
-    margin: 5vw 0vw;
+    padding: 5vw 0vw;
     display: grid;
     gap: 2vw;
     justify-content: center;

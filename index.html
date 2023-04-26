@@ -8,12 +8,21 @@
     <link rel="stylesheet" href="./css/general.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/normalize.css">
 </head>
 
 <body>
     
     <header>
+
+        <nav class="navbar">
+            <ul class="menu">
+              <li><a href="#about-me">ABOUT ME</a></li>
+              <li><a  href="#work-experience">WORK EXPERIENCE</a></li>
+            </ul>
+          </nav>
+
         <div class="greetings">
             <h1><em>Hi,</em></h1>
             <h2> I am <strong>Kristián Černák</strong></h2>
@@ -26,10 +35,10 @@
 
     <main>
         <h2>About me:</h2>
-        <section class="about-me container">
+        <section id="about-me" class="about-me container">
             <div class="content">
                 <h3>Work experience:</h3>
-                    <dl class="work-experience">
+                    <dl id="work-experience" class="work-experience">
                         <dt>LoveIT</dt>
                         <dd>Solution developer</dd>
                         <dd>03.2023 - now</dd>
@@ -37,7 +46,6 @@
             </div>
 
             <div class="content">
-                <h3>Work experience:</h3>
                     <dl class="work-experience">
                         <dt>Uniqa</dt>
                         <dd>Solution developer</dd>

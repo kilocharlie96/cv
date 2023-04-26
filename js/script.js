@@ -1,27 +1,27 @@
 (function($){
-    var body = $('body'),
-    list = $('.work-experience'),
-    copy = $('.copy');
+    var body = $('body');
+//     list = $('.work-experience');
+//     copy = $('.copy');
 
 
-    //skryjem elementy dd
-list.find('dd').slideUp();
+//     //skryjem elementy dd
+// list.find('dd').slideUp();
 
-//zobrazim dd po kliknuti na dt a ostatne dd schovam
-list.find('dt').on('click', function()
-{
-    var dt = $(this),
-        dd = dt.next();    
+// //zobrazim dd po kliknuti na dt a ostatne dd schovam
+// list.find('dt').on('click', function()
+// {
+//     var dt = $(this),
+//         dd = dt.siblings();    
     
-    dd.slideToggle()
-    .siblings('dd').slideUp();
+//     dd.slideToggle()
+//     .siblings('dd');
 
-    var newContent = dt.text() + dd.html();
+//     // var newContent = dt.text() + dd.html();
 
-    //skopirujem z dt a dd do copy
-    copy.append(newContent + '<hr>');
+//     //skopirujem z dt a dd do copy
+//     // copy.append(newContent + '<hr>');
 
-    event.preventDefault();
-});
+//     event.preventDefault();
+// });
     body.hide().fadeIn(2000);
 })(jQuery);
