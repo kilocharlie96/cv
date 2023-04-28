@@ -1,6 +1,6 @@
 (function($){
-    var body = $('body');
-//     list = $('.work-experience');
+    var body = $('body'),
+    list = $('.work-experience');
 //     copy = $('.copy');
 
 
@@ -11,17 +11,20 @@
 // list.find('dt').on('click', function()
 // {
 //     var dt = $(this),
-//         dd = dt.siblings();    
+//         dd = dt.next().siblings();    
     
+//     // dd.slideToggle()
+//     // .siblings('dd');
+
 //     dd.slideToggle()
-//     .siblings('dd');
+//     .siblings('dd').slideUp();
 
-//     // var newContent = dt.text() + dd.html();
+// //     // var newContent = dt.text() + dd.html();
 
-//     //skopirujem z dt a dd do copy
-//     // copy.append(newContent + '<hr>');
+// //     //skopirujem z dt a dd do copy
+// //     // copy.append(newContent + '<hr>');
 
-//     event.preventDefault();
+// //     event.preventDefault();
 // });
     body.hide().fadeIn(2000);
 })(jQuery);

@@ -8,6 +8,12 @@ header{
     min-height: 100vh;
 }
 
+header h3{
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+
 .greetings{
     padding: 5vw 0vw;
     display: grid;
@@ -30,6 +36,7 @@ header{
 
 .profile-picture{
     margin-top: 2rem;
+    margin-bottom: 2rem;
     display: flex;
     justify-content: center;
 }
