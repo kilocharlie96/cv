@@ -45,6 +45,7 @@ dl{
     text-align: center;
 }
 
+
 dt, dd{
     padding: 1rem;
 }
@@ -54,7 +55,12 @@ dt{
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     border: 1px solid var(--border-line);
-    font-size: clamp(1.25rem, 1.7vw, 3rem);
+    font-size: clamp(1.25rem, 1.4vw, 3rem);
+}
+
+dt strong{
+    font-size: clamp(1.25rem, 1.7vw, 3.5rem);
+    font-weight: bold;
 }
 
 dd{

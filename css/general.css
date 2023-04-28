@@ -17,11 +17,16 @@ body{
 }
 
 .button{
-    margin-top: 5vw;
-    margin-left: 2vw;
-    padding: 1rem;
+    padding: 1.2vw;
     background: var(--border-line);
     display: inline-flex;
     border-radius: 0.5rem;
+}
 
+.back.button{
+    margin-top: 5vw;
+    margin-left: 2vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: clamp(1rem, 1.4vw, 1.8rem);
 }
