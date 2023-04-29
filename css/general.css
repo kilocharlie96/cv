@@ -24,10 +24,10 @@ body{
 }
 
 .back.button{
-    padding: clamp(0.5rem, 0.75vw, 1rem);
+    padding: clamp(0.5rem, 0.5vw, 0.9rem);
     margin-top: 5vw;
     margin-left: 2vw;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 600;
-    font-size: clamp(1rem, 1.4vw, 1.8rem);
+    font-size: clamp(0.8rem, 0.9vw, 1.3rem);
 }
