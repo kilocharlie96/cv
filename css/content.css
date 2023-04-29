@@ -2,10 +2,10 @@ main{
     min-height: 100vh;
 }
 
-main h2{
+main h1{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: clamp(1.4rem, 2vw, 3rem);
+    font-size: clamp(3rem, 3.5vw, 4rem);
     padding: 5vw 0;
 }
 
@@ -31,11 +31,11 @@ main h2{
     display: flex;
     flex-direction: column;
     gap: 2vw;
-    width: 35vw;
+    width: clamp(25rem, 60vw, 80rem);
 }
 
-.content h3{
-    font-size: clamp(1.25rem, 2vw, 3rem);
+.content h2{
+    font-size: clamp(1.7rem, 2vw, 3.5rem);
     font-family: sans-serif;
     padding-bottom: 2vw;
     font-weight: bold;
@@ -47,7 +47,7 @@ dl{
 
 
 dt, dd{
-    padding: 1rem;
+    padding: 1.1vw;
 }
 
 dt{
@@ -55,11 +55,11 @@ dt{
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     border: 1px solid var(--border-line);
-    font-size: clamp(1.25rem, 1.4vw, 3rem);
+    font-size: clamp(1.4rem, 1.7vw, 3.5rem);
 }
 
 dt strong{
-    font-size: clamp(1.25rem, 1.7vw, 3.5rem);
+    font-size: clamp(1.5rem, 1.6vw, 3.5rem);
     font-weight: bold;
 }
 
@@ -67,7 +67,13 @@ dd{
     background: aliceblue;
     border-bottom: 1px solid var(--border-line);
     border: 1px solid var(--border-line);
+    font-size: clamp(1.2rem, 1.2vw, 2.7rem);
 }
+
+dd:first-of-type{
+    font-size: clamp(1.3rem, 1.3vw, 3rem);
+}
+
 
 dd:last-child{
     border-bottom-left-radius: 1rem;

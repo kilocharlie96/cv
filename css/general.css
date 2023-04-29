@@ -17,13 +17,14 @@ body{
 }
 
 .button{
-    padding: 1.2vw;
+    padding: 1rem;
     background: var(--border-line);
     display: inline-flex;
     border-radius: 0.5rem;
 }
 
 .back.button{
+    padding: clamp(0.5rem, 0.75vw, 1rem);
     margin-top: 5vw;
     margin-left: 2vw;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
